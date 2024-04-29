@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 (async ()=>{
 try {
-    await mongoose.connect(`mongodb+srv://Riddle:9118380538@cluster0.qr5vrpz.mongodb.net/userInfo`)
+    await mongoose.connect(`mongodb+srv://Riddle:ggwp@cluster0.qr5vrpz.mongodb.net/userInfo`)
     console.log(`MongoDB has been successfully connected to the database....`) 
 } catch (error) {
     console.log(error)
